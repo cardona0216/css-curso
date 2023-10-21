@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+
+ul{
+
+    list-style-type: circle;
+    list-style-type: armenian;
+    list-style-type: decimal;
+    list-style-type: georgian;
+    list-style-type: lower-alpha;
+    list-style-type: lower-greek;
+    list-style-type: lower-roman;
+    list-style-type:square;
+    
+
+}
+
+li{
+    color: white;
+    background-color: gray;
+    padding: 5px;
+    margin: 10px ;
+}
+
+.list{
+    background-color: black;
+    padding: 20px;
+}
+
+
+.img-listas{
+    list-style-image: url(/assets/img/rosa.png);
+}

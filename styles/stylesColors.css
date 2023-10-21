@@ -1,0 +1,15 @@
+
+
+body{
+    background-color: rgb(20, 102, 20);
+}
+h1{
+   background-color:#f8e805ad;
+}
+
+.rgba{
+    background-color: rgba(10, 69, 207, 0.1) ;
+}
+.hsl{
+    background-color: hsla(249, 21%, 51%, 0.705);
+}

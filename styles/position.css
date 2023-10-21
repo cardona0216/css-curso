@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+}
+
+.static{
+    position: static;
+    border: 1px solid red;
+}
+
+
+.container{
+    position: static;
+    border: 2px solid green;
+}
+
+.relative1{
+    position: relative;
+    border: 2px solid red;
+    
+    
+}
+
+.relative{
+    position: relative;
+    border: 2px solid red;
+    
+    
+}
+
+.fixed{
+    position: fixed;
+    border: 2px solid blue;
+   left: 0;
+   top: 0;
+   
+    
+}
+
+.fixed1{
+    position: fixed;
+    border: 1px solid red;
+    top: -10px;
+    right: 0;
+}
+
+
+.absolute{
+    position: fixed;
+    top: 10px;
+    border: 2px solid black;
+    
+}
+
+.container-static{
+    position: static;
+    border: 2px solid green;
+}
+
+.container-relative{
+    position: relative;
+    border: 2px solid blue;
+    left: 15px;
+}
+
+.relative-parrafo{
+    position: relative;
+   top: 30px;
+   left: 500px;
+}
+.container-fixed{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border: 2px solid violet;
+   
+}

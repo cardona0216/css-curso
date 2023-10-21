@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades de medida</title>
+</head>
+<body>
+    <a href="/index.html">Home</a><br><br>
+    <h1>Unidades de medida</h1>
+    <p>Hay medidas para poder manipular los estilos, normalmente la mas utilizada es los pixeles, peor hay <br>
+        otras que son relativas, y estan nos sirven cuando es responsive( esto quiere decir que <br> amedida)
+        que se achiuqe la pantalla o agrande la pantalla se valla modificando con respecto al tamaño del navegador
+    </p>
+
+    <h2>Porcentaje %</h2>
+    <p> 
+        <img src="/assets/img/porcentaje.png" alt=""><br>
+        esto es relativo al elemento padre: 
+        Se refiere al porcentaje del valor del elemento contenedor. <br>
+        Por ejemplo, width: 50%; establece el ancho del elemento al 50% del ancho de su contenedor.
+    </p>
+
+    <h2>EM</h2>
+    <p>
+        <img src="/assets/img/EM.png" alt=""><br> <br>
+        Relativo al tamaño de la fuente del elemento. Por ejemplo, si el <br>
+        tamaño de la fuente es 16px, width: 2em; establece el ancho en 32px.
+    </p>
+
+    <h2>REM</h2>
+    <p>
+        <img src="/assets/img/REM.png" alt=""> <br> <br>
+        Similar a em, pero relativo al tamaño de la fuente del elemento raíz (html). Esto lo hace más predecible <br>
+         en comparación con em, que puede verse afectado por el tamaño de la fuente de elementos padres.
+
+    </p>
+
+    <h2>VH</h2>
+    <p>
+        <img src="/assets/img/VH.png" alt=""> <br> <br>
+        Viewport Height (vh): <br>
+        1vh es el 1% de la altura total de la ventana del navegador.
+        Si la altura de tu ventana es de 600 píxeles, <br>
+        entonces 1vh sería equivalente a 6 píxeles (600px * 0.01).
+        Puedes usarlo para especificar porcentajes del alto de la ventana del navegador en tu diseño. <br>
+        height: 50vh; /* Esto hará que un elemento ocupe el 50% de la altura de la ventana del navegador. */
+    </p>
+
+    <h2>VW</h2>
+    <p>
+        <img src="/assets/img/VW.png" alt=""> <br> <br>
+        Viewport Width (vw): <br>
+        1vw es el 1% del ancho total de la ventana del navegador.
+        Similar al vh, pero se refiere al ancho de la ventana.
+        Puedes usarlo para especificar porcentajes del ancho de la ventana del navegador. <br>
+        width: 25vw; /* Esto hará que un elemento ocupe el 25% del ancho de la ventana del navegador. */
+    </p>
+
+    <h2>PX</h2>
+    <p>
+        <img src="/assets/img/PX.png" alt=""> <br> <br>
+        Píxeles (px): <br>
+        Es la unidad de medida más básica y común en CSS.
+        Un píxel es la unidad más pequeña en una pantalla. <br>
+        Cuando especificas algo en píxeles, estás definiendo un valor exacto. <br>
+        width: 200px; /* Establece el ancho de un elemento en 200 píxeles. */ <br>
+        font-size: 16px; /* Establece el tamaño de la fuente en 16 píxeles. */ <br>
+        margin-left: 10px; /* Establece un margen izquierdo de 10 píxeles. */ <br> <br>
+        En el código anterior, se están utilizando píxeles para definir el ancho de un elemento, 
+        el tamaño de la fuente y el margen izquierdo. Los <br> píxeles son útiles
+        cuando necesitas tamaños precisos y no deseas que el tamaño cambie según 
+        las preferencias del usuario o el dispositivo.
+        <br><br>
+        Es importante tener en cuenta que cuando trabajas con píxeles, los tamaños no se ajustan automáticamente a diferentes tamaños de pantalla, <br>
+        lo que puede llevar a diseños no tan adaptables. <br> Para diseños más responsivos, a menudo se utilizan unidades relativas como porcentajes, em, rem, vw, y vh que discutimos anteriormente.
+    </p>
+
+    <h2>VMAX</h2>
+    <p>
+        <img src="/assets/img/VMAX.png" alt=""> <br>
+    </p>
+
+    <h2>VMIN</h2>
+    <p>
+        <img src="/assets/img/VMIN.png" alt=""> <br>
+    </p>
+
+    <h2>EX</h2>
+    <p>
+        <br>
+        <img src="/assets/img/EX.png" alt=""> <br> <br>
+        La unidad ex en CSS se refiere a la altura de la "x" minúscula del tipo   de letra actual.<br> Esta unidad es relativa y se usa para especificar tamaños <br>
+        relativos al tamaño de la fuente. Un ex es aproximadamente igual a la altura <br>
+        de la letra "x" en la fuente específica que se está utilizando.
+
+        Por ejemplo: <br>
+        font-size: 2ex; /* Establece el tamaño de la fuente a 2 veces la altura de la "x". */ <br>
+        line-height: 1.5ex; /* Establece la altura de línea a 1.5 veces la altura de la "x". */ <br>
+        <br>
+
+        Esta unidad es útil cuando deseas mantener proporciones relativas al tamaño de la fuente actual, <br> 
+        especialmente en situaciones donde no sabes el tamaño exacto de la fuente porque puede ser modificado por el usuario o el contexto.
+        <br>Ten en cuenta que la interpretación exacta de la unidad ex puede variar ligeramente entre diferentes  <br> 
+        fuentes y navegadores.
+
+
+    </p>
+    
+
+
+</body>
+</html>

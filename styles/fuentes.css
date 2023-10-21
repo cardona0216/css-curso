@@ -1,0 +1,33 @@
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.font-style{
+    font-style: italic;
+}
+.font-weight{
+    font-weight: 900 ;
+}
+.font-variant{
+font-variant: small-caps;
+
+}
+
+.font-size{
+    font-size: 1em;
+    
+}
+.fuente-externa{
+    
+    /* font-family: 'Pixelify Sans', sans-serif; */
+
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Inspiration', cursive;
+}
+

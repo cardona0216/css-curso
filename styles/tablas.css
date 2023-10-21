@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+
+table,tr,td{
+    border: 1px solid black;
+    width: 800px;
+    text-align: center;
+    /* background-color: rgb(167, 158, 158); */
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table,th{
+    border: 2px solid black;
+}
+
+.primera-columna{
+    width: 200px;
+    border: 2px solid black;
+}
+
+th{
+    height: 50px;
+    background-color: gray;
+}
+tr:nth-child(even){
+    background-color: aqua;
+}
+
+tr:nth-child(odd){
+    background-color: aquamarine;
+}
+
+tr:hover{
+    background-color: red;
+}

@@ -1,0 +1,19 @@
+body{
+    /* background-color: violet; */
+    /* background: linear-gradient(90deg, white 0%, green 20%,  blue 100%);
+     */
+
+     /* background-image: url(/assets/img/aurora.webp); */
+/* esta es para que no se repita la imagen*/
+     /* background-repeat: no-repeat;  */
+     /* background-position: bottom;
+     background-attachment: fixed ; */
+
+     background: black url(/assets/img/aurora.webp) no-repeat bottom fixed;
+
+     
+}
+
+p{
+    color: white;
+}
